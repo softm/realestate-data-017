@@ -11,7 +11,7 @@ on:
         default: auto
         description: 'Resume verified checkpoints and incomplete pages within existing request budgets'
   schedule:
-    - cron: '8-59/10 * * * *'
+    - cron: '17 * * * *'
 permissions:
   contents: write
   actions: write
